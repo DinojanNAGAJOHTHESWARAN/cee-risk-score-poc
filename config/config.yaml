@@ -1,0 +1,31 @@
+project:
+  name: "CEE Risk Score V2"
+  random_state: 42
+
+data:
+  default_path: "data/raw/cee_dossiers.xlsx"
+  sheet_name: 0
+
+model:
+  supervised_algorithm: "logistic_regression"
+  test_fraction: 0.25
+  one_hot_min_frequency: 8
+  max_iter: 1500
+  n_estimators: 350
+  min_samples_leaf: 4
+
+anomaly:
+  contamination: "auto"
+  n_estimators: 250
+
+business_rules:
+  smoothing_alpha: 20.0
+  # Laisser false tant que la disponibilité de VolumeCEECalculeAttribue avant contrôle n'est pas confirmée.
+  use_calculated_volume_rules: false
+
+hybrid_score:
+  supervised_weight: 0.40
+  business_weight: 0.35
+  anomaly_weight: 0.25
+  medium_threshold: 40
+  high_threshold: 70
