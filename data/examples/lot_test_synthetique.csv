@@ -1,0 +1,7 @@
+DateCreationSoumissionDossier,DateOperation,ReferenceFicheCEE,TypeOperation,SecteurOperation,DomaineOperation,TypeBeneficiaire,TypeBatiment,CaracteristiquesTechniques,SurfaceConcernee,EquipementUtilise,VolumeCEEDeclare,VolumeCEECalculeAttribue,Region,Departement,Commune,PartenairePseudonymise
+2026-08-10,2026-07-15,FICHE-DEMO-A,Standard,Résidentiel,Chauffage,Particulier,Maison,Exemple synthétique,120,Marque=DEMO,125000,,Auvergne-Rhône-Alpes,69,Ville-Demo-A,PARTENAIRE-DEMO-01
+2026-08-11,2026-07-20,FICHE-DEMO-B,Standard,Tertiaire,Isolation,Entreprise,Bureau,Exemple synthétique,800,Marque=DEMO,450000,,Île-de-France,75,Ville-Demo-B,PARTENAIRE-DEMO-02
+2026-08-12,2026-08-01,FICHE-DEMO-A,Standard,Résidentiel,Chauffage,Particulier,Appartement,Exemple synthétique,65,Marque=DEMO,85000,,Occitanie,31,Ville-Demo-C,PARTENAIRE-DEMO-03
+2026-08-13,2026-06-15,FICHE-DEMO-C,Standard,Industrie,Équipement,Entreprise,Site industriel,Exemple synthétique,2500,Marque=DEMO,950000,,Grand Est,67,Ville-Demo-D,PARTENAIRE-DEMO-04
+2026-08-14,2026-08-10,FICHE-DEMO-B,Standard,Tertiaire,Isolation,Collectivité,Bâtiment public,Exemple synthétique,1500,Marque=DEMO,600000,,Bretagne,35,Ville-Demo-E,PARTENAIRE-DEMO-05
+2026-08-15,2026-07-01,FICHE-DEMO-D,Standard,Résidentiel,Ventilation,Particulier,Maison,Exemple synthétique,140,Marque=DEMO,180000,,Nouvelle-Aquitaine,33,Ville-Demo-F,PARTENAIRE-DEMO-06
