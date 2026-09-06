@@ -1,0 +1,28 @@
+# Environnements / caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Données : ne jamais versionner les extractions entreprise
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.csv
+!data/examples/lot_test_synthetique.csv
+
+# Modèles et métriques entraînés sur données entreprise
+models/*.joblib
+models/*.json
+
+# Secrets / variables locales
+.env
+.env.*
+!.env.example
+
+# Garder les placeholders de structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
