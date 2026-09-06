@@ -1,0 +1,9 @@
+[project]
+name = "cee-risk-score"
+version = "0.1.0"
+description = "POC explicable de priorisation des contrôles CEE"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
